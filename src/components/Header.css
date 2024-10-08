@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0; /* 원하는 배경색으로 변경 */
+}
+
+.market-info {
+  flex-grow: 1; /* 남은 공간을 차지하도록 설정 */
+}
+
+.settings-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: #333; /* 아이콘 색상 */
+  text-decoration: none;
+  margin-left: 20px; /* 시장 정보와의 간격 */
+}
+
+.settings-button:hover {
+  color: #666; /* 호버 시 아이콘 색상 */
+}

@@ -1,0 +1,22 @@
+.trading-history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .trading-history-item {
+    width: 100%;
+    /* 추가적인 스타일링 */
+  }
+
+.settings-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: #333; /* 아이콘 색상 */
+}
+
+.settings-button:hover {
+  color: #666; /* 호버 시 아이콘 색상 */
+}
