@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getStockImage } from '../utils/imageUtils';
+import '../styles/global.css';
 
 interface StockItemProps {
   code: string;
@@ -19,11 +20,14 @@ const StockItem: React.FC<StockItemProps> = ({ code }) => {
   const handleImageError = () => {
     // 이미지 로드 실패 시 기본 이미지로 대체
     setImageSrc('/assets/default-stock-image.png');
+
+    console.log('123')
   };
 
   return (
     <div className="stock-item">
       <img 
+        className="rounded-image"
         src={imageSrc || ''}  // Fallback to an empty string if imageSrc is null
         alt={`Stock image for ${code}`} 
         width="50" 
