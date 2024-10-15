@@ -26,7 +26,7 @@ const MainPage: React.FC = () => {
 
   const stockHoldings = {
     domestic: [
-      { code: '005930', name: '삼성전자', targetProfit: 100000, currentPrice: 60000, profitLoss: 5000, profitLossRate: 2.5 },
+      { code: '005930', name: '삼성전자1', targetProfit: 100000, currentPrice: 60000, profitLoss: 5000, profitLossRate: 2.5 },
       { code: '000660', name: 'SK하이닉스', targetProfit: 80000, currentPrice: 70000, profitLoss: -2000, profitLossRate: -1.5 },
     ],
     foreign: [
